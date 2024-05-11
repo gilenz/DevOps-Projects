@@ -1,6 +1,6 @@
 #!/bin/bash
 
-additem()
+additem()  #This function is adding an directory/file(with extention) to the system
 {
 read -p " enter the path for the file/directory: " dir
 read -p " enter the filename/directoryname: " name
@@ -14,6 +14,7 @@ elif [ $itemtype == dir ]; then
 	echo " the directory $name has created in $dir"
 else
 	echo " item type is invalid "
+	exit 1
 fi
 }
 
@@ -23,7 +24,7 @@ fi
 
 
 
-modifyitem () 
+modifyitem ()  ## This function is allow to modify name of directory/file and checks with the user before rename it
 {
 	read -p " what item you want to rename file/directory: " item
 	if [ $item == file ]; then
@@ -53,7 +54,7 @@ fi
 
 
 
-deleteitem () 
+deleteitem ()  # This function allow to delete a directory/file from the system and checks with the user to make sure before delete
 {
 read -p " what item type you want to delete directory/file: " itemtype
 if [ $itemtype == file ]; then
@@ -84,9 +85,9 @@ fi
 
 PS3="what change you want to make?: "
 
-select lng in "Add Item" "Modify Item Name" "Delete Item" "Quit"
+select change in "Add Item" "Modify Item Name" "Delete Item" "Quit" ## creating a menu for the user to the change that want to make
 do
-    case $lng in
+    case $change in
         "Add Item")
             additem;;
         "Modify Item Name")
