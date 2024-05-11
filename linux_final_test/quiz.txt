@@ -1,0 +1,25 @@
+which command is used to set default premissions for newly created files and directories ;0)chmod ;2)umask ;3)chown ;2
+i tried to remove a directory with files in it using the command "rm" it didnt work which command i need to use ;1)rmdir ;2)rm -r ;3)rm -d ;2
+i wanted to create anew user called "Lior" using the command "useradd Lior" it didnt work why  ;1)the command not exist ;2)there is a user with the same name ;3)need to run the command with sudo ;3
+what is the meaning of OSS ;1)Open Source Software ;2)Open Source System ;3)Operating System Software ;1
+which flags should i use for opening user with home directory and shell ;1)-M -s ;2)-m -s ;3)-G -s ;2
+what is the main difference between gzip and zip ;1)gzip is a newer technology of compersing ;2)gzip can archiev the data zip cannot ;3)gzip can compress the data to smaller file that zip file ;3
+i define an alias in the terminal but when i closed the terminal the alias stopped working why ;1)there is an existing alias with the same name ;2)you need to define it in the bashrc file ;3)you need to reboot the system ;2
+which directory contains the groups in the system ;1) /etc/passwd ;2) /etc/group ;3) /etc/shadow ;2
+what command should i use to give full premission to file named "file.txt" only for specific user ;1)chmod u+rwx,g-rwx,o-rwx file.txt  ;2)chmod 700 file.txt ;3)all the answers above ;3
+i have a log file that i want to search a spcific words in it which command preffered to use in this case ;1)find ;2)cat ;3)grep ;3
+i want to use a command and dont want it to print the errors how should i do that ;1)command 2> /dev/null ;2)command 1> /dev/null ;3)answers 1,2 are wrong ;1
+the following command is written in the terminal "eco $?" what will be the output on the terminal ;1)0 ;2)1 ;3)eco command not found ;3
+what the command "echo $?" represent ;1)the error code of the last command i ran in terminal ;2)the histroy of commands ;3)shows the current directory ;1
+what is the meaning of "run the script as cron" ;1)run the script in the background ;2)run the script in root user ;3)schaduel when to run the script ;3
+how should i run the command sleep 200 in the background ;1)bg sleep 200 ;2)sleep 2000 & ;3)sleep 200 & ;3
+which command should i use to bring the background process to foreground terminal ;1)bg ;2)fg ;3)none of the above ;2
+what it is vfs ;1)virtual file system ;2)virtual format system ;3)virtual file storage ;1
+what contain the directory /proc ;1)information about all the proceses in the system ;2)information about the devices in the system ;3)no such directory ;1
+which flag of the command "ls" should i use to see the index number of file or directory ;1)-la ;2)-a ;3)-i ;3
+what is the difference between the commands "cat" and "less" ;1)cat sends the file content to stdout in our case terminal and less represts it in pagination mode ;2)cat sends the file content to the stdin and less represents in pagination ;3)cat represts the file content in pagination and less send it to stdout in our case terminal ;1
+what is the numbers that assosiated with the following standarts:stdin,stdout,stderror ;1)0,1,2 ;2)0,2,1 ;3)1,0,2 ;1
+what doest the command "touch" ;1)creating a new directory ;2)creating a new file ;3)creating a new file with content ;2
+when im using the command "ps -aux" what is the meaning of the sign "?" in the TTY ;1)the process no assosiated with terminal ;2)the process assosiated with deleted user ;3)the process assosiated with root user ;1  
+i want to change niceness to 20 to aprocess how should i do that ;1)nice -n 20 command ;2)renice 10 -p command ;3)nice -n 10 command ;1
+how should i use SIGIN when there is a script runing on the terminal ;1)press CTRL+C ;2)CTRL+Z ;3)CTRL+Z+Z ;1
